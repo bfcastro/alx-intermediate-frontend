@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A blog post about semantic HTML and accessibility practises">
+    <meta name="keywords" content="HTML, Semantic, Accessibility, Blog,SEO">
+    <meta name="author" content="Castro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Html Blog Post</title>
+</head>
+<body>
+
+<!--header session-->
+<header>
+    <h1>My Blog</h1>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+
+<!--main session-->
+<main>
+    <section>
+        <form action="#" method="POST" aria-labelledby="form-title" role="form">
+            <div>
+                <label for="name">Name:
+                    <input type="text" id="name" name="name" aria-required="true">
+                </label>
+            </div>
+
+            <div>
+                <button type="submit" aria-label="Submit the form"></button>
+            </div>
+
+            <div aria-live="polite" role="alert"></div>
+        </form>
+    </section>
+</main>
+
+<!--footer session-->
+<footer>
+    <p>written by Castro</p>
+    <p>Published on 2024-09-11</p>
+</footer>
+</body>
+</html>
