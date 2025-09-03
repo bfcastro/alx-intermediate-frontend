@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flexbox Layout</title>
+
+  <!-- Load Tailwind first -->
+  <script src="https://cdn.tailwindcss.com"></script>  
+</head>
+<body class="p-4">
+  <header class="mb-4">
+    <h1 class="text-3xl text-red-700 font-bold">Responsive Flexbox Layout</h1>
+  </header>
+
+  <!-- Pure Tailwind responsive utilities -->
+  <main class="flex flex-col md:flex-row">
+    <aside class="w-full md:w-1/3 bg-gray-300 p-4">Sidebar</aside>
+    <section class="w-full md:w-2/3 bg-gradient-to-r from-gray-400 to-gray-600 p-4">
+      Content Section
+    </section>
+  </main>
+</body>
+</html>
