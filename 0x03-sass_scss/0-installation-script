@@ -1,0 +1,8 @@
+1. Navigate to project folder
+cd my-project
+
+2. Install sass via npm
+npm install sass@latest
+
+3. Verify installation
+npx sass --version
